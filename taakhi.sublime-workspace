@@ -589,15 +589,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp2/htdocs/taakhi",
-		"/D/xampp2/htdocs/taakhi/catalog",
-		"/D/xampp2/htdocs/taakhi/catalog/controller",
-		"/D/xampp2/htdocs/taakhi/catalog/controller/account",
-		"/D/xampp2/htdocs/taakhi/catalog/view",
-		"/D/xampp2/htdocs/taakhi/catalog/view/theme"
+		"/D/xampp2/htdocs/taakhi"
 	],
 	"file_history":
 	[
+		"/D/xampp2/htdocs/taakhi/install.txt",
+		"/D/Sublime/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/D/xampp2/htdocs/taakhi/license.txt",
+		"/D/xampp2/htdocs/taakhi/sftp-config.json",
 		"/C/Users/Ismail Ashour/Desktop/FragmentBasics/res/layout/news_articles.xml",
 		"/C/Users/Ismail Ashour/Desktop/FragmentBasics/res/layout/article_view.xml",
 		"/C/Users/Ismail Ashour/Desktop/ArticleFragment.java",
@@ -652,7 +651,6 @@
 		"/D/xampp2/htdocs/taakhi/catalog/view/theme/default/template/account/register.tpl",
 		"/D/xampp2/htdocs/taakhi/catalog/language/arabic/module/category.php",
 		"/D/xampp2/htdocs/taakhi/catalog/language/arabic/common/header.php",
-		"/D/xampp2/htdocs/taakhi/sftp-config.json",
 		"/D/xampp2/htdocs/taakhi/catalog/view/theme/pav_beeshop/template/module/_bannerbuilder.tpl",
 		"/D/xampp2/htdocs/taakhi/admin/controller/sale/order.php",
 		"/D/xampp2/htdocs/taakhi/admin/model/sale/order.php",
@@ -722,10 +720,7 @@
 		"/C/Users/Ismail Ashour/Desktop/وافا اتش ار تمبلت تعديل محمد المغني/assets/css/bootstrap-rtl.css",
 		"/D/xampp2/htdocs/wafa/resources/views/wafa/account/register.blade.php",
 		"/C/Users/Ismail Ashour/Desktop/وافا اتش ار تمبلت تعديل محمد المغني/assets/css/main-rtl.css",
-		"/C/Users/Ismail Ashour/Desktop/وافا اتش ار تمبلت تعديل محمد المغني/reg.html",
-		"/D/xampp2/htdocs/wafa/resources/views/wafa/common/breadcrumbs.blade.php",
-		"/D/xampp2/htdocs/wafa/app/Http/Controllers/SiteController.php",
-		"/D/xampp2/htdocs/wafa/resources/lang/ar/user.php"
+		"/C/Users/Ismail Ashour/Desktop/وافا اتش ار تمبلت تعديل محمد المغني/reg.html"
 	],
 	"find":
 	{
@@ -1066,6 +1061,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 151.0
 	},
 	"output.sftp":
 	{
