@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'proxima_regular';
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_regular-webfont.eot');
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_regular-webfont.ttf') format('truetype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_regular-webfont.svg#proxima_regular') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_thin';
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_thin-webfont.eot');
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_thin-webfont.eot?#iefix') format('embedded-opentype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_thin-webfont.woff') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_thin-webfont.woff2') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_thin-webfont.ttf') format('truetype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_thin-webfont.svg#proxima_regular') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_light';
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_alt_light_0-webfont.eot');
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_alt_light_0-webfont.eot?#iefix') format('embedded-opentype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_alt_light_0-webfont.woff') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_alt_light_0-webfont.woff2') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_alt_light_0-webfont.ttf') format('truetype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_alt_light_0-webfont.svg#proxima_regular') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_semibold';
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_semibold-webfont.eot');
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_semibold-webfont.woff') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_semibold-webfont.ttf') format('truetype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_semibold-webfont.svg#proxima_regular') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_extrabold';
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_extrabold-webfont.eot');
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_extrabold-webfont.woff') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_extrabold-webfont.woff2') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_extrabold-webfont.svg#proxima_regular') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_black';
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_black-webfont.eot');
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_black-webfont.eot?#iefix') format('embedded-opentype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_black-webfont.woff') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_black-webfont.woff2') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_black-webfont.ttf') format('truetype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_black-webfont.svg#proxima_regular') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_bold';
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_bold-webfont.eot');
+  src: url('#{$theme-font-path}mark_simonson_-_proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_bold-webfont.woff') format('woff'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_bold-webfont.ttf') format('truetype'),
+     url('#{$theme-font-path}mark_simonson_-_proxima_nova_bold-webfont.svg#proxima_regular') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_regular';
+    src: url('#{$theme-font-path}gotham-light-webfont.eot');
+    src: url('#{$theme-font-path}gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$theme-font-path}gotham-light-webfont.woff') format('woff'),
+         url('#{$theme-font-path}gotham-light-webfont.ttf') format('truetype'),
+         url('#{$theme-font-path}gotham-light-webfont.svg#gotham_regular') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham_medium';
+    src: url('#{$theme-font-path}ufonts.com_gotham-medium-webfont.eot');
+    src: url('#{$theme-font-path}ufonts.com_gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$theme-font-path}ufonts.com_gotham-medium-webfont.woff2') format('woff2'),
+         url('#{$theme-font-path}ufonts.com_gotham-medium-webfont.woff') format('woff'),
+         url('#{$theme-font-path}ufonts.com_gotham-medium-webfont.ttf') format('truetype'),
+         url('#{$theme-font-path}ufonts.com_gotham-medium-webfont.svg#gotham_regular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham_book';
+    src: url('#{$theme-font-path}ufonts.com_gotham-book-webfont.eot');
+    src: url('#{$theme-font-path}ufonts.com_gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$theme-font-path}ufonts.com_gotham-book-webfont.woff2') format('woff2'),
+         url('#{$theme-font-path}ufonts.com_gotham-book-webfont.woff') format('woff'),
+         url('#{$theme-font-path}ufonts.com_gotham-book-webfont.ttf') format('truetype'),
+         url('#{$theme-font-path}ufonts.com_gotham-book-webfont.svg#gotham_regular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gotham_Black';
+    src: url('#{$theme-font-path}Gotham-Black.eot');
+    src: url('#{$theme-font-path}Gotham-Black.eot?#iefix') format('embedded-opentype'),
+         url('#{$theme-font-path}Gotham-Black.woff') format('woff'),
+         url('#{$theme-font-path}Gotham-Black.ttf') format('truetype'),
+         url('#{$theme-font-path}Gotham-Black.svg#gotham_regular') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}

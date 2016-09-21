@@ -1,0 +1,770 @@
+2015-11-09 20:32:09 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: viethemes - Facebook Share Hotfix
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $header; ?>
+LINE: 0
+FILE: catalog/view/theme/pav_beeshop/template/product/product.tpl
+CODE: <?php echo $header; ?>
+NOT FOUND!
+----------------------------------------------------------------
+2015-11-09 22:12:22 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+2016-01-09 19:59:11 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------
+2016-01-09 19:59:13 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------
+2016-01-09 20:07:22 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------
+2016-01-09 20:07:27 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------
+2016-01-10 9:38:41 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: EmailVerification
+FILE: catalog/model/account/customer.php
+CODE: if ($this->config->get('config_account_mail')) {
+LINE: 76
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+LINE: 18
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: <div class="row"><?php echo $column_left; ?>
+NOT FOUND!
+FILE: catalog/controller/account/success.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 64
+FILE: catalog/controller/account/login.php
+CODE: if ($customer_info && !$customer_info['approved']) {
+LINE: 194
+CODE: $data['action'] = $this->url->link('account/login', '', 'SSL');
+LINE: 133
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+CODE: </form>
+LINE: 55
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------
+2016-01-10 9:43:21 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------
+2016-01-10 9:43:24 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------
+2016-03-27 6:03:10 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Social Login Ultimate
+FILE: admin/model/sale/customer.php
+CODE: public function deleteCustomer($customer_id) {
+LINE: 67
+FILE: catalog/controller/common/header.php
+CODE: if (file_exists(DIR_TEMPLATE . $this->config->get('config_template')
+LINE: 156
+FILE: catalog/model/account/customer.php
+CODE: $message .= $this->language->get('text_services') . "\n\n";
+LINE: 43
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+LINE: 63
+CODE: <nav id="top">
+LINE: 62
+FILE: catalog/view/theme/pav_beeshop/template/common/header.tpl
+CODE: <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
+NOT FOUND!
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 81
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 57
+FILE: catalog/view/theme/pav_beeshop/template/common/footer.tpl
+CODE: </body>
+LINE: 118
+FILE: catalog/view/theme/default/template/account/login.tpl
+CODE: </form>
+LINE: 50
+FILE: catalog/view/theme/pav_beeshop/template/account/login.tpl
+CODE: </form>
+LINE: 45
+FILE: catalog/view/theme/default/template/account/register.tpl
+CODE: </h1>
+LINE: 22
+FILE: catalog/view/theme/pav_beeshop/template/account/register.tpl
+CODE: </h1>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/checkout/login.tpl
+CODE: id="button-login"
+LINE: 49
+----------------------------------------------------------------
+MOD: Store Reviews Lite Admin
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 212
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a href="<?php echo $review; ?>"><?php echo $text_review; ?></a></li>
+LINE: 17
+FILE: admin/language/arabic/common/menu.php
+CODE: $_['text_user']
+LINE: 83
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']
+LINE: 79
+FILE: admin/controller/setting/setting.php
+CODE: $data['captcha_pages'] = array();
+NOT FOUND!
+----------------------------------------------------------------

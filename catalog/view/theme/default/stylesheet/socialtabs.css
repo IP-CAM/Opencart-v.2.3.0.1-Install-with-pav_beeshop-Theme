@@ -1,0 +1,80 @@
+/*
+* Socialtabs Module Stylesheet
+* Developed for OpenCart 2.x
+* Author Gedielson Peixoto - http://www.gepeixoto.com.br
+* @03/2015
+* Under GPL license.
+*/
+.socialtabs-container{
+  position: fixed;
+  z-index: 99999;
+  width: 280px;
+  transition: all 550ms;
+}
+.top_left, .top_right{
+  top: 55px;
+}
+.bottom_left, .bottom_right{
+  bottom: 55px;
+}
+.top_right, .bottom_right{
+  right: -280px;
+}
+.top_left, .bottom_left{
+  left: -280px;
+}
+.socialtab-icon{
+  position: absolute;
+  padding: 12px;
+  color: white;
+  z-index: -1;
+}
+.socialtab-icon i{
+  font-size: 30px;
+}
+#facebook-icon{
+  padding-left: 22px;
+}
+.facebook_icon_top_left, .facebook_icon_bottom_left, .facebook_icon_top_right, .facebook_icon_bottom_right{
+  background-color: #3B579D;
+}
+.twitter_icon_top_left, .twitter_icon_bottom_left, .twitter_icon_top_right, .twitter_icon_bottom_right{
+  background-color: #4092CC;
+}
+.facebook_icon_top_right, .facebook_icon_bottom_right, .twitter_icon_top_right, .twitter_icon_bottom_right{
+  left: -50px;
+}
+.facebook_icon_top_left, .facebook_icon_bottom_left, .twitter_icon_top_left, .twitter_icon_bottom_left{
+  right: -50px;
+}
+.twitter-body{
+  width: 280px;
+}
+.top_left1, .top_right1{
+  top: 0px;
+}
+.bottom_left1, .bottom_right1{
+  bottom: 0px;
+}
+.top_left2, .top_right2{
+  top: 55px;
+}
+.bottom_left2, .bottom_right2{
+  bottom: 55px;
+}
+.top_left.open, .bottom_left.open{
+  left: 0;
+}
+.top_right.open, .bottom_right.open{
+  right: 0;
+}
+@media (max-width: 420px) {
+  .socialtabs-container{
+    display:none
+  }
+}
+@media only screen and (max-device-width: 420px) {
+  .socialtabs-container{
+    display:none
+  }
+}

@@ -1,0 +1,109 @@
+// module cart
+#cart-top{
+  cursor: pointer;
+  line-height: 18px;
+}
+.cart-search{
+    a{
+        cursor: pointer;
+    }
+}
+.cart-right{
+  .cart-top{
+    position: relative;
+    .cart-inner{
+      position: relative;
+      background:$red;
+      line-height: 18px;
+      height: 49px;
+      &:after{
+      content: "";
+       background: $red ;
+       height: 100%;
+       width: 500%;
+       position: absolute;
+       top: 0;
+       @include rtl-left(100%);
+      }
+      a{
+        color: $white;
+      }
+    }
+  }
+}
+.cart-top {
+    .icon-cart{
+        display: inline-block;
+        height: 38px;
+        width: 38px;
+        background: url("#{$image-theme-path}icon-cart.png") no-repeat scroll center bottom;
+    }
+    .wrap-cart{
+      display: inline-block;
+    }
+    .dropdown-menu {
+        padding: 10px;
+        min-height: 100px;      
+        height: auto !important;      
+        min-width: 445px;
+        //@include opacity(0);  
+        @include transition(all 300ms ease-in-out 0s);
+        top: 0;
+        position:fixed;
+        //visibility: hidden;
+        z-index: 999 ;
+        display: block;
+        @include rtl-translate3d(100%,0,0);
+        @include transition(all 0.4s $ease-out-quad 0s);
+    }
+    .show-cart-block{
+      @include rtl-translate3d(0,0,0);      
+    }
+    .view-cart{
+      a{
+        color: $white !important;
+      }
+    }
+}
+.bg-over-lay{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 997;
+  will-change: opacity;
+  @include opacity(0);
+  visibility: hidden;
+  @include transition(opacity 0.3s ease 0s);
+}
+.show-over-lay{
+  @include opacity(1);
+  visibility: visible;
+}
+//module search
+#search {
+    padding-top:12px;
+    input {
+        height: 30px;
+        border: 1px solid #2f2f2f;
+        background:#252525;
+        padding:0 20px;
+        @include rtl-border-right(0);
+    }
+    button{
+        line-height: 26px;
+        padding: 1px 15px;
+        background:#252525;
+        border: 1px solid #2f2f2f;
+        @include rtl-border-left(0);
+        i{
+            font-size: 12px;
+            color: $white;
+        }
+        &:hover{
+            color: $theme-color;
+        }
+    }
+}

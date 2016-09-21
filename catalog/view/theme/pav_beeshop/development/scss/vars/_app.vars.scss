@@ -1,0 +1,135 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        		: pav !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 		: panel !default;
+$block-selector          		: panel !default;
+$block-heading-selector  		: panel-heading !default;
+$block-content-selector  		: panel-body !default;
+
+/**
+ * Product Item Selectors
+ */
+$products-container-selector 	: products_block !default;
+$products-row-selector 		 	: products-row !default;
+$products-col-selector 		 	: product-col !default;
+//------- Path Variables
+$image-path:                    "images/"!default;
+$font-custom-path:              "../font/"!default;
+$image-theme-base-path:         "../img/"!default;
+$image-theme-icon-path:         "../img/icon/"!default;
+$image-base-path:               "../../../img/"!default;
+$image-skin-path:               "../../img/icon/"!default;
+$image-module-path:             "../../../img/icon/"!default;
+$module-path:                   "../../../modules/"!default;
+
+$image-theme-path:              "../image/" !default;
+$theme-font-path:		        "../fonts/" !default;
+$image-theme-path-base: 		"../image/" !default;			
+
+
+/***********************************************************************/
+// some basic colors
+$sky:                  			    #7bbd42 !default;  // Skin sky
+$blue:                              #6087D2 !default;  // Skin blue
+$yellow:                  			#f6c131 !default;  // Skin yellow
+$coral:								#e87169 !default;  // Slin Coral
+$rico:								#51BAA9 !default;  // Skin Rico
+$jungle-green:      				#37bc9b !default; //skin jungle green
+$green:                    			#77c66d !default;  // Skin Green
+$red:                   			#f05156 !default;  // Skin Red
+$pink:                  			#c3325f !default;
+$white:			 				    #FFFFFF !default;
+$black:							    #000000 !default;
+$cyandark:   						#4e4d49 !default;
+$orange:                			#f99d5a !default;
+$aqua: 								#75aab8 !default;
+$turquoise:                         #4ACFD4 !default; // label new
+$nav-border-color-hover:            #e2e2e2 !default;
+$golden-poppy:                      #F2BE01 !default;
+$valencia:      					#D44A4A !default;
+$tundora:                           #9c9c9c !default;  // Topbar + Vertical Menu Content
+$wild-sand:                         #ffffff !default;  // Background Body - default
+$silver:                            #f5f5f5 !default;  
+$red-light:            				#ff9999 !default;
+$yellow-light:           			#ffdc73 !default;
+$nocolor:							transparent !default;
+$brown:                             #3a3a3a;
+// == Theme color base
+$theme-color: 		#82b08e !default;
+$border-color-base: #ececec !default; 
+// some basic font family
+// ========================================================================
+$font-tamoha: "tahoma";
+$font-arial: "Arial";
+
+
+// Variables paths 
+// ========================================================================
+
+
+$font-family:			 			 'proxima_regular', sans-serif !default;
+$font-family-secondary :             'proxima_bold', sans-serif !default;
+$font-family-tertiary  :             'proxima_semibold', sans-serif !default;
+$font-family-senary    : 			 'proxima_thin', sans-serif !default;
+$font-family-three     :             'proxima_extrabold', cursive !default;
+$font-family-four      :             'proxima_light', sans-serif !default;
+$font-icon-family 	   : 			 "FontAwesome" !default;
+
+//////////////////// Variables defined for Themes + Skins ////////////////
+
+$body-bg:                           #ffffff !default;
+$theme-color:  				        $theme-color !default; 
+
+$theme-color-default : 			    #000 !default;
+$theme-color-primary :				$theme-color !default;
+$theme-color-secondary:             #838383 !default;   
+$theme-color-tertiary:              #373737 !default;
+
+
+$font-body-family	   : $font-family !default;
+$font-headding-family  : $headings-font-family !default;
+$font-menu-family      : $font-family-tertiary !default;
+$font-highlighted-family: $font-family-secondary !default;
+
+
+$theme-bg-default		: $gray-lighter !default; 
+$theme-bg-secondary 	 : $red !default; // using variable  for Theme  Skin 
+$theme-bg-threedary  	 : $brand-warning!default; // using skin product list
+
+
+
+
+ 
+$border-color  : #ececec !default;
+
+$table-bg-color	:  #ebebeb !default;
+
+
+
+$btn-hover-cart : $theme-color !default;
+
+$btn-hover-cart-border : #2a7abb !default;
+
+
+// Brand
+// ========================================================================
+$brand-border:                     1px solid $border-color !default;
+$brand-radius:                     0px !default;
+
+//sale
+$new-color: #f05156 !default;
+$hot-color: $green !default;
+$sale-color: $red !default; 
+
+
+//
+// Variables
+// --------------------------------------------------
+$rtl-left : left;
+$rtl-right : right;
+$ease-out-quad:cubic-bezier(0.25, 0.46, 0.45, 0.94);

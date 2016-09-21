@@ -1,0 +1,281 @@
+@media (min-width: $screen-lg-min) {
+  .header-layout{
+  	 .container{
+  	 	padding-left: 40px;
+  	  	padding-right: 40px;
+  	 }
+  }
+}
+@media (min-width: $screen-lg) {
+}
+@media (min-width: $screen-md) and (max-width: $screen-md-max){
+	.hightlight .product-block .image{
+		width: 100%;
+	}
+	.product-info .compare{
+		padding-left:0;
+	}
+	.hightlighted .product-block .product-meta,
+	.hightlighted .product-block .image{
+		width: 100%;
+	}
+	.hight-lighted .pav-newsletter{
+		padding-bottom:8px;
+	}
+	.call-to-action{
+		width: 100%;
+	}
+	.space-padding-lr-40{
+		padding-left:0 !important;
+		padding-right:0 !important;
+
+	}
+	#header-bottom .autosearch-wrapper .search{
+		min-width: 385px;
+	}
+}
+/* Ipad Portrait */
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+	#header-bottom .autosearch-wrapper .search{
+		min-width:615px;
+	}
+	.footer-center .container .column{
+		padding-bottom: 10px;
+    	padding-top: 10px;
+	}
+	.footer-center .container .column.padding{
+		padding-left:9px;
+	}
+	.img-list-product .list{
+		width: 100%;
+	}
+	.pav-header #cart-top{
+		float: right !important;
+	}
+	#cart {
+    	float: left !important;
+	}
+	.product-info .compare{
+		padding-left:0;
+	}
+	.zoomContainer{
+	    display: none !important;
+	}
+	#header-main{
+		margin-bottom: 0;
+	}
+	.hight-lighted .latest-posts-v1 .latest-posts-img-profile,
+	.hight-lighted .latest-posts-v1 .latest-posts-meta
+	{
+		width: 100%;
+	}
+	.box-top{
+		margin-bottom:20px;
+	}
+	.box-top .dropdown > .dropdown-menu{
+		left: 0;
+		right: auto;
+	}
+	.product-info .action > div{
+		margin-bottom: 10px;
+	}
+	.image-additional .owl-item{
+		width: 110px !important;
+	}
+	.pav-newsletter .form-control{
+		width: 100%;
+	}
+	.hight-lighted{
+		margin-bottom: 60px;
+		.panel-heading{
+			padding:10px 0 0;
+		}
+		.pav-newsletter .form-control{
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+		.pav-newsletter{
+			padding-bottom:6px;
+		}
+	}
+	.space-padding-lr-40{
+		padding-left:0 !important;
+		padding-right:0 !important;
+
+	}
+	.call-top{
+		float: left !important;
+	}
+
+	#search{
+		padding-bottom:12px;
+	}
+}
+/* Iphone 5 landscape  */
+@media (max-width: $screen-xs-max) {
+	#header-layout.header-v3 .logo{
+		position: static;
+	}
+	.pav-header #cart-top{
+		float: right !important;
+	}
+	#cart-top{
+		float: left !important;
+	}
+	.box-top .dropdown > .dropdown-menu{
+		left: 0;
+		right: auto;
+	}
+	.pav-header #header-main{
+		margin: 15px 0;
+	}
+	#header-layout .logo{
+		margin:15px 0;
+	}
+	#topbar .freeship{
+		margin-bottom: 10px;
+	}
+	.box-top{
+		margin-bottom:20px;
+		float: left !important;
+	}
+	.cart-search{
+		@include rtl-float-left();
+		margin: 0 10px;
+	}
+	.custom-full ul li{
+		width: 100%;
+	}
+	.hightlight .product-block .image{
+		width: 100%;
+	}
+	.footer-center .container .column{
+		padding-bottom:10px;
+		padding-top:10px;
+	}
+	.footer-center .container .column.padding{
+		padding-left:10px;
+	}	
+	.footer-center .container .column{
+		min-height: 200px;
+	}
+	.zoomContainer{
+	    display: none !important;
+	}
+	.btn{
+		margin-bottom: 5px;
+	}
+	h4, .h4{
+		font-size:14px;
+	}
+	.img-list-product .list{
+		width: 100%;
+	}
+	.product-info .compare{
+		padding-left:0;
+	}
+	.product-info .quantity-adder{
+		margin-right: 5px;
+	}
+	.product-info .quantity-adder .add-action{
+		width: 20px;
+	}
+	.border-right{
+		border-right:0;
+	}
+	.hight-lighted .latest-posts-v1 .latest-posts-img-profile,
+	.hight-lighted .latest-posts-v1 .latest-posts-meta,
+	.pav-newsletter .form-control{
+		width: 100%;
+	}
+	.product-info .action > div{
+		margin-bottom: 10px;
+	}
+	.image-additional .owl-item{
+		width: 142px !important;
+	}
+	.call-top{
+		float: left !important;
+		margin-right: 15px;
+	}
+	.space-padding-tb-60{
+		padding-bottom:20px !important;
+		padding-top:20px !important;
+	}
+	.space-padding-lr-40{
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	.product-list .product-block .description{
+		height: auto;
+	}	
+	.product-list .product-block .image{
+		width: 100%;
+	}
+	.product-list .product-block .product-meta{
+		width: 100%;
+		padding:0;
+	}
+}
+/* Iphone 4 + 5 Portrait */ 
+@media (max-width: $screen-phone) {
+	.space-padding-tb-60{
+		padding-bottom:20px !important;
+		padding-top:20px !important;
+	}
+	.space-padding-lr-40{
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+	.widget-cols .first-product{
+		width: 100%;
+	}
+	.widget-cols .widget-product-list{
+		width: 100%;
+	}
+		.refine-search ul li, .refine-search ol li{
+		width: 90%;
+	}
+	.cart-top .dropdown-menu{
+	    min-width: 270px;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    width: 260px;
+	    img{
+	    	display: none;
+	    }
+	}
+	#header-main{
+		margin-bottom: 0;
+	}
+	.product-block {    
+	    &:hover {
+	        .product-meta .rating{
+	            @include opacity(1);
+	            visibility: visible;
+	        }
+	    }
+	}
+	.latest-posts-v1{
+		.block-content{
+			padding:0;
+		}
+	}
+	.productdeals.image-deal .product-block .image{
+		width: 100%;
+	}
+
+	.hightlighted .product-block .product-meta,
+	.hightlighted .product-block .image{
+		width: 100%;
+	}
+	.tab-v3 .nav-tabs > li:first-child{
+		margin-left: 0;
+	}
+	.tab-v3 .nav-tabs > li.active > a{
+		border:0;
+	}
+	.tab-v3 .nav-tabs > li{
+		margin-bottom: 0;
+	}
+}

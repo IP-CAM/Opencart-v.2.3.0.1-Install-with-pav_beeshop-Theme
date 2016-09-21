@@ -1,0 +1,508 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Amiri&subset=arabic,latin);
+/* The slider */
+.iviewSlider {
+	overflow: hidden;
+	direction: ltr;
+}
+
+/* The timer in the Slider */
+#iview-timer {
+	position: absolute;
+	z-index: 100;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none !important;
+}
+
+#iview-timer div {
+	border-radius: 3px;
+}
+
+/* The Preloader in the Slider */
+#iview-preloader {
+	position: absolute;
+	z-index: 1000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: #000 1px solid;
+	padding: 1px;
+	width: 100px;
+	height: 3px;
+}
+#iview-preloader div {
+	float: left;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	height: 3px;
+	background: #000;
+	width: 0px;
+}
+
+/* The strips and boxes in the Slider */
+.iview-strip {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+.iview-block {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.iview-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.iview-prevNav {
+	left:0px;
+}
+.iview-nextNav {
+	right:0px;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.iview-controlNav {
+	position:absolute;
+	z-index:9;
+}
+.iview-controlNav a {
+	z-index:9;
+	cursor:pointer;
+}
+.iview-controlNav a.active {
+	font-weight:bold;
+}
+.iview-controlNav .iview-items ul {
+	list-style: none;
+	padding: 0;
+}
+.iview-controlNav .iview-items ul li {
+	display: inline;
+	position: relative;
+}
+.iview-controlNav .iview-tooltip {
+	position: absolute;
+}
+
+/* The captions in the Slider */
+.iview-caption {
+	position:absolute;
+	z-index:4;
+	cursor: default;
+	text-transform: uppercase;
+}
+
+/* The video show in the Slider */
+.iview-video-show {
+	background: #000;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 101;
+}
+
+.iview-video-show .iview-video-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.iview-video-show .iview-video-container a.iview-video-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: #222;
+	color: #FFF;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 22px;
+	font-weight: bold;
+	overflow: hidden;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.iview-video-show .iview-video-container a.iview-video-close:hover {
+	background: #444;
+}
+
+.holder{
+	display: none !important;
+}
+
+/****************************** STYLE *********************************************/
+.container {
+	display: block;
+	margin: 0px auto;
+}
+
+#iview {
+	overflow: hidden;
+}
+
+#iview {
+	position: relative;
+}
+
+#iview .iviewSlider {
+	display: block;
+	overflow: hidden;
+}
+
+/* CONTROL NAVIGATION STYLE */
+#iview {
+	position:relative;
+	z-index: 0;
+}
+#iview:hover .iview-controlNextNav,
+#iview:hover .iview-controlPrevNav
+{
+	opacity:1;
+	visibility: visible;
+}
+.iview-controlNav {
+   
+    position: static;
+    
+}
+
+#iview .iview-controlNextNav,
+#iview .iview-controlPrevNav {    
+    top: 50%;
+    margin-top: -23px;
+    position: absolute;
+    text-indent: -99999px;
+    width:50px;
+    height: 50px;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms ease-in-out, background-color 300ms ease-in-out, background-position 300ms ease-in-out;
+	-moz-transition: opacity 300ms ease-in-out, background-color 300ms ease-in-out, background-position 300ms ease-in-out;
+	-webkit-transition: opacity 300ms ease-in-out, background-color 300ms ease-in-out, background-position 300ms ease-in-out;
+	-o-transition: opacity 300ms ease-in-out, background-color 300ms ease-in-out, background-position 300ms ease-in-out;
+}
+#iview .iview-controlNextNav{
+	left: 10px;	
+	background: url("../assets/arrow_large_left.png") no-repeat 0 0;
+}
+#iview .iview-controlNextNav:hover,#iview .iview-controlPrevNav:hover{
+	background-position: 0 100%;
+}
+#iview .iview-controlPrevNav {
+    right: 10px;       
+    background: url("../assets/arrow_large_right.png") no-repeat 0 0;     
+}
+.iview-controlNav div.iview-items {
+   bottom: 20px;
+   left: 23px;
+   list-style: none;
+   position: absolute;
+   z-index: 15;
+}
+
+.iview-controlNav a.iview-control {
+	padding: 0px;
+	float: left;
+	width: 11px;
+	line-height: 0px;
+}
+
+.iview-controlNav div.iview-items ul li a.active {
+	background-color:#fff;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	cursor: default;
+}
+
+.iview-controlNav div.iview-items ul li a {
+	cursor: pointer;
+    display: block;
+    height: 10px;
+    width: 10px;
+	float:right;	
+	margin: 0 5px 0 0;
+	background-color: transparent;
+	border: 2px solid #ffecd7;
+	text-indent: -9999px;
+	bottom: 0px;
+	border-radius: 50%;
+}
+
+/* LOADER STYLE */
+#iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+
+#iview-preloader div {
+	background: #666;
+}
+
+/*************************************************** TOOLTIP STYLE **************************************************/
+#iview #iview-tooltip {
+	display: none;
+	position: absolute;
+	width: 162px;
+	height: 114px;
+	bottom: 30px;
+	left: -67px;
+	padding: 10px;
+	z-index: 100;
+}
+
+#iview #iview-tooltip div.holder {
+	display: block;
+	width: 124px;
+	height: 84px;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+#iview #iview-tooltip div.holder div.container {
+	display: block;
+}
+
+#iview #iview-tooltip div.holder div.container div {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 124px;
+	height: 84px;
+	left: -50%;
+	text-align: center;
+}
+
+#iview #iview-tooltip div.holder div.container div img {
+	height: 84px;
+	margin: 0 auto;
+}
+
+
+/*************************************************************************** DEFAULT CAPTION STYLE AT HERE ****************************************************************************/
+.iview-caption {
+}
+
+.iview-caption.caption1 {
+	font-size: 36px;
+	font-weight: bold;
+	height: 45px;
+}
+
+.iview-caption.caption2 {
+	background: #00b4ff;
+	font-size: 36px;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.iview-caption.caption3 {
+	background: #FFF;
+	color: #000;
+	font-size: 26px;
+	text-shadow: none;
+}
+
+.iview-caption.caption4 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.iview-caption.caption5 {
+	background: #c4302b;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.iview-caption.caption6 {
+	font-size: 18px;
+}
+
+.iview-caption.caption7 {
+	text-align: left;
+	font-size: 11px;
+	color: #888;
+	border-radius: 0px;
+}
+
+.iview-caption.caption7 div {
+	line-height: 200%;
+}
+
+.iview-caption.caption7 h3 {
+	margin-bottom: 20px;
+	color: #FFF;
+}
+
+.iview-caption.blackcaption {
+	background: #000;
+	box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;
+	text-shadow: none;
+}
+
+
+/*************************************************************************** CUSTOM CAPTION STYLE AT HERE ****************************************************************************/
+.iview-caption.big-caption{	
+	font-size: 48px;	
+	color: #000000;
+}
+
+.iview-caption.big-caption{
+	font-weight: bold;	
+}
+
+.iview-caption.normal-caption {
+	font-weight: 300;
+}
+.iview-caption.softred{
+	font-size: 124px;
+	color: #242424;
+	display: inline-block;
+	position: relative;
+	line-height: 100px;
+	font-family: 'proxima_extrabold', sans-serif !important;
+}
+.iview-caption.softar {
+	font-size: 64px;
+	color: #12B3CC;
+
+	font-family: 'Amiri', Arial !important;
+}
+.iview-caption.softred1{
+	font-size: 64px;
+	color: #242424;
+	display: inline-block;
+	position: relative;
+	line-height: 80px;
+	font-family: 'proxima_extrabold', sans-serif !important;
+}
+
+.iview-caption.softred2{
+	font-size: 28px;
+	color: #242424;
+	line-height: 80px;
+	font-family: 'proxima_extrabold', sans-serif !important;
+}
+.iview-caption.softred3{
+	font-weight: 300;
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	text-transform: none;
+	font-family: 'proxima_thin', sans-serif !important;
+}
+.iview-caption.softred4{
+	font-weight: 300;
+	font-size: 26px;
+	color: #535353;
+	font-family: 'proxima_thin', sans-serif !important;
+}
+.iview-caption.softred5{
+	font-size: 40px;
+	color: #82b08e;
+	font-family: 'proxima_bold', sans-serif !important;
+	height: 60px !important;
+	line-height:60px;
+	border-top: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+	width: 340px !important;
+	text-transform: none;
+}
+.iview-caption.softred6{
+	font-size: 48px;
+	color: #76bfc1;
+	display: inline-block;
+	position: relative;
+	line-height: 48px;
+	height: 48px !important;
+	font-family: 'proxima_extrabold', sans-serif !important;
+}
+
+.red span{
+	color:#e51c29;
+}
+.orange span{
+	color: #f09500;
+}
+.yellow span{
+	color: #ffe345;
+}
+.pink span{
+	color: #ff1c84;
+}
+.des{
+	color: #b9e3f6;
+}
+.price-slider{
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-detail .btn-default{
+	color: #222222;
+	background: transparent;
+	font-family: 'proxima_semibold', sans-serif !important;
+	border: 2px solid #222;
+}
+.btn-build .btn-default{
+	color: #fff;
+	background: #444;
+	font-family: 'proxima_semibold', sans-serif !important;
+	border-radius: 5px;
+	border: 0;
+	padding: 10px 35px;
+}
+.typo-small{
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.typo-big{
+	font-size: 36px;
+	font-weight: bold;	
+}
+.typo-small-white{
+	color: #FFFFFF;
+}
+
+.typo-big-black{
+	font-size: 48px;	
+}
+.green{
+	color: #58cbab;	
+}
+
+.orange{
+	color: #e69268;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.black{
+	color: #000000 !important;
+}
+
+.gray{
+	color: #737783 !important;
+}
+.red{
+	color:#e51c29;
+}
+.white{
+	color: #FFFFFF !important;
+}
+.pink{
+	color: #ff1c84;
+}

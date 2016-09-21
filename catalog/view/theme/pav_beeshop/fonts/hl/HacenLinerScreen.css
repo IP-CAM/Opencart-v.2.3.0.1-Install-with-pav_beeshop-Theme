@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'hl';
+    src: url('HacenLinerScreen.eot');
+    src: url('HacenLinerScreen.eot') format('embedded-opentype'),
+         url('HacenLinerScreen.woff2') format('woff2'),
+         url('HacenLinerScreen.woff') format('woff'),
+         url('HacenLinerScreen.ttf') format('truetype'),
+         url('HacenLinerScreen.svg#HacenLinerScreen') format('svg');
+         font-weight:400;
+}
+
+@font-face {
+    font-family: 'hl';
+    src: url('HacenLinerScreenBd.eot');
+    src: url('HacenLinerScreenBd.eot') format('embedded-opentype'),
+         url('HacenLinerScreenBd.woff2') format('woff2'),
+         url('HacenLinerScreenBd.woff') format('woff'),
+         url('HacenLinerScreenBd.ttf') format('truetype'),
+         url('HacenLinerScreenBd.svg#HacenLinerScreenBd') format('svg');
+         font-weight:700;
+}
+
